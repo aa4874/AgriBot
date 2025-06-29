@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soil Monitor Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+    <h1>🍀 Soil Monitor Dashboard</h1>
+
+    <div>
+        <p><strong>🪴Soil Moisture:</strong> {{ data.moisture }}%</p>
+        <p><strong>🌡️Temperature:</strong> {{ data.temperature }}°C</p>
+        <p><strong>📍Pump Status:</strong> {{ data.pump_status }}</p>
+        <p><strong>⛽Pump Control:</strong> {{ data.pump_control }}</p>
+    </div>
+
+    <p style="color: black;">(Values update every 5 seconds)</p>
+</body>
+</html>
